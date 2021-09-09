@@ -38,7 +38,7 @@ export const skillsSection = {
 			"⚽ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
 		),
 		emoji(
-			"⚽ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚽ Try to create more value in any technology side, hard-working for gain more lucky!"
 		),
 	],
 
