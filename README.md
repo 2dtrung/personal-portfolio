@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-### To view a live example, **[click here]()**.
+### To view a live example, **[click here](https://2dtrung.github.io/personal-portfolio/)**.
 
 ## Table of Contents
 
