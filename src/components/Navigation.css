@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Augestina;
+    src: url(../assets/fonts/TESLA.ttf);
+}
+
+@font-face {
+    font-family: Transformer;
+    src: url(../assets/fonts/Transformers.ttf);
+}
+
+#nav-title{
+    font-family: Augestina;
+    text-transform: capitalize;
+}
+
+#nav-title1{
+    font-family: Transformer;
+    text-transform: capitalize;
+}
