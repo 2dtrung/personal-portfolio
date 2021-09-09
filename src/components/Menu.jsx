@@ -47,7 +47,7 @@ const StyledMenu = styled.nav`
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/" onClick={(e) => {
+      <a href="/" id='nav-title1' onClick={(e) => {
           e.preventDefault();
           window.scrollTo({
             top: 1000,
@@ -58,7 +58,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="about us">💁🏻‍♂️</span>
         Skill
       </a>
-      <a href="/" onClick={(e) => {
+      <a href="/" id='nav-title1' onClick={(e) => {
           if (window.innerWidth > 767) {
             e.preventDefault();
             window.scrollTo({
@@ -79,7 +79,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="price">🎓</span>
         Education
       </a>
-      <a href="/" onClick={(e) => {
+      <a href="/" id='nav-title1' onClick={(e) => {
           if (window.innerWidth > 767) {
             e.preventDefault();
             window.scrollTo({
@@ -100,7 +100,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="contact">👨‍💻</span>
         Experience
         </a>
-      <a href="/" onClick={(e) => {
+      <a href="/" id='nav-title1' onClick={(e) => {
           if (window.innerWidth > 767) {
             e.preventDefault();
             window.scrollTo({
@@ -121,7 +121,7 @@ const Menu = ({ open }) => {
         <span role="img" aria-label="contact">🔖</span>
         Project
         </a>
-      <a href="/" onClick={(e) => {
+      <a href="/" id='nav-title1' onClick={(e) => {
         if (window.innerWidth > 767) {
           e.preventDefault();
           window.scrollTo({
@@ -187,21 +187,11 @@ const StyledBurger = styled.button`
         }
     }
     @media (max-width: 425px) {
+        display: none;
         :first-child {
             transform: ${({ open }) => open ? 'translateY(-70px) translateX(5px) rotate(360deg)' : 'translateY(0px) translateX(0px) rotate(0)'};
         }
-    }
-    @media (max-width: 375px) {
-        :first-child {
-            transform: ${({ open }) => open ? 'translateY(-70px) translateX(5px) rotate(360deg)' : 'translateY(0px) translateX(0px) rotate(0)'};
-        }
-    }
-    @media (max-width: 320px) {
-        :first-child {
-            transform: ${({ open }) => open ? 'translateY(-70px) translateX(5px) rotate(360deg)' : 'translateY(0px) translateX(0px) rotate(0)'};
-        }
-    }
-
+      }
   }
 `
 

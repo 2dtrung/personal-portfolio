@@ -9,12 +9,12 @@ const Feedbacks = () => {
 				<Fade bottom duration={1000} distance="40px">
 					<div className="d-flex p-4">
 						<div>
-							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-								<i className="fa fa-star text-info" />
+							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-success">
+								<i className="fa fa-star text-success" />
 							</div>
 						</div>
 						<div className="pl-4">
-							<h4 className="display-3 text-info" id='nav-title1'>
+							<h4 className="display-3 text-success" id='nav-title1'>
 								Feedback
 							</h4>
 						</div>

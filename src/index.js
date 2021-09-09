@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import Navigation from "./components/Navigation";
 import Greetings from "./containers/Greetings";
 import Skills from "./containers/Skills";
-import Proficiency from "./containers/Proficiency";
+import Favorite from "./containers/Favorite";
 import Education from "./containers/Education";
 import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
@@ -25,7 +25,7 @@ ReactDOM.render(
 		<Education />
 		<Experience />
 		<Projects />
-		<Proficiency />
+		<Favorite />
 		<Feedbacks />
 		<GithubProfile />
 		<ScrollToTop />

@@ -16,12 +16,12 @@ const Experience = () => {
               <Fade left duration={1000} distance="40px">
               <div className="d-flex p-4">
                     <div>
-                        <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                        <i className="ni ni-briefcase-24 text-info" />
+                        <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-success">
+                        <i className="ni ni-briefcase-24 text-success" />
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-info" id='nav-title1'>Experience</h4>
+                        <h4 className="display-3 text-success" id='nav-title1'>Experience</h4>
                     </div>
                 </div>
                 <Row className="row-grid align-items-center">
