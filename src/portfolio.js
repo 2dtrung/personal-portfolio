@@ -9,7 +9,7 @@ export const greetings = {
 	title: "I'm Trung. Do Duc",
 	description:
 		"Front-End Website Developer, having an experience of building Web applications with JavaScript / Reactjs / PHP and some other cool libraries, frameworks.",
-	resumeLink: "https://drive.google.com/file/d/14TL2lS6qvBj8CIvkDnhUnUc6_6wwJc6j/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1thMt8x8Zc62HfjCjTf3hoFQNy95if89h/view?usp=sharing",
 };
 
 export const openSource = {
